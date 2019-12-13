@@ -1,11 +1,10 @@
+  GNU nano 4.3                                                                                     /home/alex/.vimrc                                                                                               
 call plug#begin('~/.vim/plugged')
 
-Plug 'christophermca/meta5'
-Plug 'ErichDonGubler/vim-sublime-monokai'
+Plug 'tomasiser/vim-code-dark'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"Plug 'Shougo/unite.vim'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'dart-lang/dart-vim-plugin'
@@ -13,7 +12,7 @@ Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
 call plug#end()
 
-colorscheme sublimemonokai
+colorscheme codedark
 
 set statusline+=%#warningmsg#
 set statusline+=%*
