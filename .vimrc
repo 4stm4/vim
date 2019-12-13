@@ -1,4 +1,4 @@
-  GNU nano 4.3                                                                                     /home/alex/.vimrc                                                                                               
+                                                                                              
 call plug#begin('~/.vim/plugged')
 
 Plug 'tomasiser/vim-code-dark'
