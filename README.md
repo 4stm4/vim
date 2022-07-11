@@ -18,6 +18,30 @@ A minimalist Vim plugin manager https://github.com/junegunn/vim-plug
 3) change vim config
 
         nano ~/.vimrc
+
 4) add line
 
+        " plugins section
         call plug#begin('~/.vim/plugged')
+        
+        call plug#end()
+
+        " config section
+
+Color sheme https://github.com/tomasiser/vim-code-dark
+---------------------
+1) change vim config
+
+        nano ~/.vimrc
+
+2) add line to plug section
+
+        Plug 'tomasiser/vim-code-dark'
+
+3) add line to config section
+
+        colorscheme codedark
+
+
+
+
