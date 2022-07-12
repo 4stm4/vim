@@ -85,8 +85,25 @@ Vim icons https://github.com/ryanoasis/vim-devicons
 
         Plug 'ryanoasis/vim-devicons'
 
+Mouse on
+---------------------
+1) change vim config
+
+        vim ~/.vimrc
+
+2) add lines to config section
+
+        set mouse=a
+
 Asynchronous Lint Engine https://github.com/dense-analysis/ale
 ------------------------
+1) change vim config
+
+        vim ~/.vimrc
+
+2) add lines to plug section
 
         Plug 'dense-analysis/ale'
+
+
 
