@@ -105,5 +105,14 @@ Asynchronous Lint Engine https://github.com/dense-analysis/ale
 
         Plug 'dense-analysis/ale'
 
+Nerd Tree https://github.com/preservim/nerdtree
+--------------------------
 
 
+https://github.com/jistr/vim-nerdtree-tabs
+https://github.com/easymotion/vim-easymotion
+http://vimdoc.sourceforge.net/htmldoc/options.html#option-summary
+https://github.com/jez/vim-as-an-ide
+https://vimawesome.com/
+https://github.com/junegunn/fzf.vim
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
