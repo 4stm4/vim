@@ -1,28 +1,36 @@
-                                                                                              
 call plug#begin('~/.vim/plugged')
 
 Plug 'tomasiser/vim-code-dark'
-
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ycm-core/YouCompleteMe'
-Plug 'vim-syntastic/syntastic'
-Plug 'dart-lang/dart-vim-plugin'
-Plug 'mileszs/ack.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'dense-analysis/ale'
 Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+
 call plug#end()
 
+" config section
 colorscheme codedark
+" mouse on
+set mouse=a
+" show lines numbers
+set number
+"
+set ruler
+"
+set backspace=indent,eol,start
+"
+set showcmd
+"
+set incsearch
+"
+set hlsearch
 
-set statusline+=%#warningmsg#
-set statusline+=%*
+" Start NERDTree and leave the cursor in it.
+autocmd VimEnter * NERDTree
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-let g:syntastic_python_checkers = ['pylint']
+let g:airline_theme = 'codedark'
 
 " настройки Vim-Airline
 let laststatus=2
@@ -30,18 +38,3 @@ let g:airline_theme='badwolf'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
-
-let g:ycm_keep_logfiles = 1
-let g:ycm_log_level = 'debug'
-
-"Если вы используете обычную qwerty, то поменяте mac на win
-set keymap=russian-jcukenmac
-"Язык ввода при старте Вима - Английский
-set iminsert=0
-"Аналогично настраивается режим поиска
-set imsearch=0
-
-map <C-n> :NERDTreeToggle<CR>
-
-autocmd vimenter * NERDTree
-set number
