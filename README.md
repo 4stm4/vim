@@ -1,11 +1,11 @@
-# vim
+# My vim config and installation script.
 
 pip install pyflakes pep8 pylint ipython
 
 sudo apt install vim
 
 A minimalist Vim plugin manager https://github.com/junegunn/vim-plug
------------------------
+---
 1) upload vim-plug
 
         sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -29,7 +29,7 @@ A minimalist Vim plugin manager https://github.com/junegunn/vim-plug
         " config section
 
 Color sheme https://github.com/tomasiser/vim-code-dark
----------------------
+---
 1) change vim config
 
         nano ~/.vimrc
@@ -51,7 +51,7 @@ Color sheme https://github.com/tomasiser/vim-code-dark
         let g:airline_theme = 'codedark'
 
 Vim airline https://github.com/vim-airline/vim-airline
-----------------------
+---
 1) change vim config
 
         vim ~/.vimrc
@@ -76,7 +76,7 @@ Vim airline https://github.com/vim-airline/vim-airline
         let g:airline#extensions#tabline#enabled = 1 
 
 Vim icons https://github.com/ryanoasis/vim-devicons
------------------------
+---
 1) change vim config
 
         vim ~/.vimrc
@@ -86,7 +86,7 @@ Vim icons https://github.com/ryanoasis/vim-devicons
         Plug 'ryanoasis/vim-devicons'
 
 Mouse on
----------------------
+---
 1) change vim config
 
         vim ~/.vimrc
@@ -96,7 +96,7 @@ Mouse on
         set mouse=a
 
 Asynchronous Lint Engine https://github.com/dense-analysis/ale
-------------------------
+---
 1) change vim config
 
         vim ~/.vimrc
@@ -106,13 +106,13 @@ Asynchronous Lint Engine https://github.com/dense-analysis/ale
         Plug 'dense-analysis/ale'
 
 Nerd Tree https://github.com/preservim/nerdtree
---------------------------
+---
 
-
-https://github.com/jistr/vim-nerdtree-tabs
-https://github.com/easymotion/vim-easymotion
-http://vimdoc.sourceforge.net/htmldoc/options.html#option-summary
-https://github.com/jez/vim-as-an-ide
-https://vimawesome.com/
-https://github.com/junegunn/fzf.vim
-https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
+Using materials
+#### https://github.com/jistr/vim-nerdtree-tabs
+#### https://github.com/easymotion/vim-easymotion
+#### http://vimdoc.sourceforge.net/htmldoc/options.html#option-summary
+#### https://github.com/jez/vim-as-an-ide
+#### https://vimawesome.com/
+#### https://github.com/junegunn/fzf.vim
+#### https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
